@@ -1945,16 +1945,16 @@ margin-top: -90px !important;
                                                 
                                                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.5rem;">
                                                     <button class="offer-tab active" data-offer="premium" style="background: linear-gradient(135deg, #0066cc, #0056b3); border: 2px solid #0066cc; box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3); border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 700; color: #ffffff; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
-                                                        Premium<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #ffffff;">119€ TTC/an</span>
+                                                        Premium<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #ffffff;">119 € TTC / 12 mois</span>
                                                     </button>
                                                     <button class="offer-tab" data-offer="membership" style="background: #f8f9fa; border: 2px solid #d0d0d0; border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 600; color: #1a1a1a; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
-                                                        MemberShip Club<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">499€ TTC/an</span>
+                                                        MemberShip Club<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">499 € TTC / 12 mois</span>
                                                     </button>
                                                     <!--<button class="offer-tab" data-offer="agences" style="background: #f8f9fa; border: 2px solid #d0d0d0; border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 600; color: #1a1a1a; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
                                                         Futuroscopie<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">133€ TTC/an</span>
                                                     </button>-->
                                                     <button class="offer-tab" data-offer="etudiant" style="background: #f8f9fa; border: 2px solid #d0d0d0; border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 600; color: #1a1a1a; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
-                                                        Étudiant<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">19€ TTC pour 12 mois</span>
+                                                        Étudiant<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">19 € TTC / 12 mois</span>
                                                     </button>
                                                 </div>
 												
@@ -1983,7 +1983,7 @@ margin-top: -90px !important;
                                                         </li>
                                                     </ul>
                                                     <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; text-align: center;">
-                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">119€ TTC/an</span>
+                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">119 € TTC / 12 mois</span>
                                                     </div>
 													<div style="margin-top: 1.5rem; text-align: center;">
     <a href="https://bit.ly/3O2yqnp" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #59DF7A, #0956E7); color: #ffffff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.15rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(89, 223, 122, 0.3); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(89, 223, 122, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(89, 223, 122, 0.3)';">
@@ -2040,7 +2040,7 @@ margin-top: -90px !important;
                                                         </li>
                                                     </ul>
                                                     <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; text-align: center;">
-                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">499€ TTC/an</span>
+                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">499 € TTC / 12 mois</span>
                                                     </div>
 													
 <div style="margin-top: 1.5rem; text-align: center;">
@@ -2091,7 +2091,7 @@ margin-top: -90px !important;
                                                         </li>
                                                     </ul>
                                                     <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; text-align: center;">
-                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">19€ TTC pour 12 mois</span>
+                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">19 € TTC / 12 mois</span>
                                                     </div>
 													<div style="margin-top: 1.5rem; text-align: center;">
     <a href="https://bit.ly/3OkRNbo" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #59DF7A, #0956E7); color: #ffffff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.15rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(89, 223, 122, 0.3); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(89, 223, 122, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(89, 223, 122, 0.3)';">
@@ -2496,4 +2496,3 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
         }
     }
 })();
-
