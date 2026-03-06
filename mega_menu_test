@@ -2,7 +2,7 @@
  * TourMag Navigation Menu Widget
  * Version: 1.1.0 - CORRIGÉ
  * Description: Widget tout-en-un pour le mega menu TourMag
- * Usage: <div id="tourmag-menu"></div><script src="tourmag-menu-widget.js"></script>
+ * Usage: <div id="testdemenu"></div><script src="testdemenu-widget.js"></script>
  */
 
 (function() {
@@ -26,31 +26,31 @@
         }
 
         /* FORCER L'AFFICHAGE DU WIDGET */
-        #tourmag-menu {
+        #testdemenu {
             display: block !important;
             visibility: visible !important;
             opacity: 1 !important;
         }
 
-        #tourmag-menu .header {
+        #testdemenu .header {
             display: block !important;
         }
 
-        #tourmag-menu .main-nav {
+        #testdemenu .main-nav {
             display: block !important;
         }
 
         /* Reset UNIQUEMENT dans le widget */
-        #tourmag-menu {
+        #testdemenu {
             font-family: 'Josefin Sans', sans-serif;
             color: var(--text-dark);
             line-height: 1.6;
         }
 
-        #tourmag-menu .header,
-        #tourmag-menu .main-nav,
-        #tourmag-menu .mega-menu,
-        #tourmag-menu .mega-menu * {
+        #testdemenu .header,
+        #testdemenu .main-nav,
+        #testdemenu .mega-menu,
+        #testdemenu .mega-menu * {
             box-sizing: border-box;
         }
 
@@ -826,33 +826,33 @@
     }
     
     /* Articles abonnés - Actualités */
-    #tourmag-menu .mega-menu a.media-simple-link {
+    #testdemenu .mega-menu a.media-simple-link {
         font-size: 1.05rem;
     }
     
     /* Boutons newsletters */
-    #tourmag-menu a[href*="Shortcast"],
-    #tourmag-menu a[href*="Archives"],
-    #tourmag-menu a.newsletter-subscribe-btn {
+    #testdemenu a[href*="Shortcast"],
+    #testdemenu a[href*="Archives"],
+    #testdemenu a.newsletter-subscribe-btn {
         font-size: 1.05rem !important;
     }
     
     /* Titre encadré articles abonnés */
-    #tourmag-menu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
+    #testdemenu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
         font-size: 1.3rem !important;
     }
     
     /* Abonnements - Titre encadré */
-    #tourmag-menu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
+    #testdemenu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
         font-size: 1.3rem !important;
     }
     
     /* Contact Gentiane */
-    #tourmag-menu a[href*="gentiane"] p {
+    #testdemenu a[href*="gentiane"] p {
         font-size: 1rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] p:last-child {
+    #testdemenu a[href*="gentiane"] p:last-child {
         font-size: 1.1rem !important;
     }
 }
@@ -910,73 +910,73 @@
     }
     
     /* Articles abonnés - Actualités - CIBLAGE ULTRA PRÉCIS */
-    #tourmag-menu .mega-menu a.media-simple-link,
-    #tourmag-menu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
-    #tourmag-menu .mega-column a[href*="CLUB-ABONNES"],
-    #tourmag-menu .mega-column a[href*="futuroscopie"],
-    #tourmag-menu .mega-column a[href*="MEMBERSHIP-CLUB"] {
+    #testdemenu .mega-menu a.media-simple-link,
+    #testdemenu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
+    #testdemenu .mega-column a[href*="CLUB-ABONNES"],
+    #testdemenu .mega-column a[href*="futuroscopie"],
+    #testdemenu .mega-column a[href*="MEMBERSHIP-CLUB"] {
         font-size: 1rem !important;
         padding: 0.6rem 0.85rem !important;
     }
     
     /* Boutons newsletters - ciblage renforcé ULTRA PRÉCIS */
-    #tourmag-menu a[href*="Shortcast"],
-    #tourmag-menu a[href*="shortcast"],
-    #tourmag-menu a[href*="Archives"],
-    #tourmag-menu a[href*="archives"],
-    #tourmag-menu .mega-menu a[href*="Shortcast-Newsletter"],
-    #tourmag-menu .mega-menu a[href*="Toutes-les-Archives"] {
+    #testdemenu a[href*="Shortcast"],
+    #testdemenu a[href*="shortcast"],
+    #testdemenu a[href*="Archives"],
+    #testdemenu a[href*="archives"],
+    #testdemenu .mega-menu a[href*="Shortcast-Newsletter"],
+    #testdemenu .mega-menu a[href*="Toutes-les-Archives"] {
         font-size: 1rem !important;
         padding: 0.7rem 1.2rem !important;
     }
     
-    #tourmag-menu a.newsletter-subscribe-btn,
-    #tourmag-menu a[href*="insc.edt02.net"],
-    #tourmag-menu a[href*="300335/20150403"],
-    #tourmag-menu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
+    #testdemenu a.newsletter-subscribe-btn,
+    #testdemenu a[href*="insc.edt02.net"],
+    #testdemenu a[href*="300335/20150403"],
+    #testdemenu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
         font-size: 1rem !important;
         padding: 0.7rem 1.2rem !important;
     }
     
     /* Titre encadré articles abonnés */
-    #tourmag-menu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
+    #testdemenu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
         font-size: 1.25rem !important;
         padding: 0.4rem 1.8rem !important;
     }
     
     /* Abonnements - Titre encadré "Nos offres" */
-    #tourmag-menu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
+    #testdemenu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
         font-size: 1.25rem !important;
         padding: 0.4rem 1.8rem !important;
     }
     
     /* Contact Gentiane */
-    #tourmag-menu a[href*="gentiane"] p {
+    #testdemenu a[href*="gentiane"] p {
         font-size: 0.95rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] p:last-child {
+    #testdemenu a[href*="gentiane"] p:last-child {
         font-size: 1.05rem !important;
     }
     
     /* Bouton "Abonnez-vous" */
-    #tourmag-menu a[href*="abo.tourmagmarketing.com"] {
+    #testdemenu a[href*="abo.tourmagmarketing.com"] {
         font-size: 1.2rem !important;
         padding: 0.75rem 1.6rem !important;
     }
     
     /* FAQ liens */
-    #tourmag-menu a[href*="faq"] {
+    #testdemenu a[href*="faq"] {
         font-size: 1rem !important;
         padding: 0.55rem 0.8rem !important;
     }
 }
 
 /* ICÔNES - Réduction responsive */
-    #tourmag-menu .mega-menu a img,
-    #tourmag-menu .media-simple-link img,
-    #tourmag-menu .media-icon img,
-    #tourmag-menu .newsletter-icon img {
+    #testdemenu .mega-menu a img,
+    #testdemenu .media-simple-link img,
+    #testdemenu .media-icon img,
+    #testdemenu .newsletter-icon img {
         width: 35px !important;
         height: 35px !important;
         max-width: 35px !important;
@@ -1044,68 +1044,68 @@
     }
     
     /* Articles abonnés - Actualités - CIBLAGE ULTRA PRÉCIS */
-    #tourmag-menu .mega-menu a.media-simple-link,
-    #tourmag-menu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
-    #tourmag-menu .mega-column a[href*="CLUB-ABONNES"],
-    #tourmag-menu .mega-column a[href*="futuroscopie"],
-    #tourmag-menu .mega-column a[href*="MEMBERSHIP-CLUB"] {
+    #testdemenu .mega-menu a.media-simple-link,
+    #testdemenu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
+    #testdemenu .mega-column a[href*="CLUB-ABONNES"],
+    #testdemenu .mega-column a[href*="futuroscopie"],
+    #testdemenu .mega-column a[href*="MEMBERSHIP-CLUB"] {
         font-size: 0.95rem !important;
         padding: 0.55rem 0.8rem !important;
     }
     
     /* Boutons newsletters - ciblage renforcé ULTRA PRÉCIS */
-    #tourmag-menu a[href*="Shortcast"],
-    #tourmag-menu a[href*="shortcast"],
-    #tourmag-menu a[href*="Archives"],
-    #tourmag-menu a[href*="archives"],
-    #tourmag-menu .mega-menu a[href*="Shortcast-Newsletter"],
-    #tourmag-menu .mega-menu a[href*="Toutes-les-Archives"] {
+    #testdemenu a[href*="Shortcast"],
+    #testdemenu a[href*="shortcast"],
+    #testdemenu a[href*="Archives"],
+    #testdemenu a[href*="archives"],
+    #testdemenu .mega-menu a[href*="Shortcast-Newsletter"],
+    #testdemenu .mega-menu a[href*="Toutes-les-Archives"] {
         font-size: 0.95rem !important;
         padding: 0.6rem 1.1rem !important;
     }
     
-    #tourmag-menu a.newsletter-subscribe-btn,
-    #tourmag-menu a[href*="insc.edt02.net"],
-    #tourmag-menu a[href*="300335/20150403"],
-    #tourmag-menu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
+    #testdemenu a.newsletter-subscribe-btn,
+    #testdemenu a[href*="insc.edt02.net"],
+    #testdemenu a[href*="300335/20150403"],
+    #testdemenu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
         font-size: 0.95rem !important;
         padding: 0.6rem 1.1rem !important;
     }
     
     /* Titre encadré articles abonnés */
-    #tourmag-menu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
+    #testdemenu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
         font-size: 1.15rem !important;
         padding: 0.35rem 1.5rem !important;
     }
     
     /* Abonnements - Titre encadré "Nos offres" */
-    #tourmag-menu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
+    #testdemenu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
         font-size: 1.15rem !important;
         padding: 0.35rem 1.5rem !important;
     }
     
     /* Contact Gentiane */
-    #tourmag-menu a[href*="gentiane"] p {
+    #testdemenu a[href*="gentiane"] p {
         font-size: 0.9rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] p:last-child {
+    #testdemenu a[href*="gentiane"] p:last-child {
         font-size: 1rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] img {
+    #testdemenu a[href*="gentiane"] img {
         width: 70px !important;
         height: 70px !important;
     }
     
     /* Bouton "Abonnez-vous" */
-    #tourmag-menu a[href*="abo.tourmagmarketing.com"] {
+    #testdemenu a[href*="abo.tourmagmarketing.com"] {
         font-size: 1.1rem !important;
         padding: 0.7rem 1.5rem !important;
     }
     
     /* FAQ liens */
-    #tourmag-menu a[href*="faq"] {
+    #testdemenu a[href*="faq"] {
         font-size: 0.95rem !important;
         padding: 0.5rem 0.75rem !important;
     }
@@ -1116,10 +1116,10 @@
     }
 
 /* ICÔNES - Réduction responsive */
-    #tourmag-menu .mega-menu a img,
-    #tourmag-menu .media-simple-link img,
-    #tourmag-menu .media-icon img,
-    #tourmag-menu .newsletter-icon img {
+    #testdemenu .mega-menu a img,
+    #testdemenu .media-simple-link img,
+    #testdemenu .media-icon img,
+    #testdemenu .newsletter-icon img {
         width: 30px !important;
         height: 30px !important;
         max-width: 30px !important;
@@ -1190,68 +1190,68 @@
     }
     
     /* Articles abonnés - Actualités - CIBLAGE ULTRA PRÉCIS */
-    #tourmag-menu .mega-menu a.media-simple-link,
-    #tourmag-menu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
-    #tourmag-menu .mega-column a[href*="CLUB-ABONNES"],
-    #tourmag-menu .mega-column a[href*="futuroscopie"],
-    #tourmag-menu .mega-column a[href*="MEMBERSHIP-CLUB"] {
+    #testdemenu .mega-menu a.media-simple-link,
+    #testdemenu .mega-column div[style*="border: 2px solid #ffd700"] a.media-simple-link,
+    #testdemenu .mega-column a[href*="CLUB-ABONNES"],
+    #testdemenu .mega-column a[href*="futuroscopie"],
+    #testdemenu .mega-column a[href*="MEMBERSHIP-CLUB"] {
         font-size: 1.1rem !important;
         padding: 0.5rem 0.75rem !important;
     }
     
     /* Boutons newsletters - ciblage renforcé ULTRA PRÉCIS */
-    #tourmag-menu a[href*="Shortcast"],
-    #tourmag-menu a[href*="shortcast"],
-    #tourmag-menu a[href*="Archives"],
-    #tourmag-menu a[href*="archives"],
-    #tourmag-menu .mega-menu a[href*="Shortcast-Newsletter"],
-    #tourmag-menu .mega-menu a[href*="Toutes-les-Archives"] {
+    #testdemenu a[href*="Shortcast"],
+    #testdemenu a[href*="shortcast"],
+    #testdemenu a[href*="Archives"],
+    #testdemenu a[href*="archives"],
+    #testdemenu .mega-menu a[href*="Shortcast-Newsletter"],
+    #testdemenu .mega-menu a[href*="Toutes-les-Archives"] {
         font-size: 0.9rem !important;
         padding: 0.55rem 1rem !important;
     }
     
-    #tourmag-menu a.newsletter-subscribe-btn,
-    #tourmag-menu a[href*="insc.edt02.net"],
-    #tourmag-menu a[href*="300335/20150403"],
-    #tourmag-menu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
+    #testdemenu a.newsletter-subscribe-btn,
+    #testdemenu a[href*="insc.edt02.net"],
+    #testdemenu a[href*="300335/20150403"],
+    #testdemenu .mega-menu a[target="_blank"][style*="linear-gradient(135deg, #59DF7A, #0956E7)"] {
         font-size: 0.9rem !important;
         padding: 0.55rem 1rem !important;
     }
     
     /* Titre encadré articles abonnés */
-    #tourmag-menu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
+    #testdemenu .mega-column div[style*="position: absolute"][style*="top: -20px"] {
         font-size: 1.05rem !important;
         padding: 0.35rem 1.3rem !important;
     }
     
     /* Abonnements - Titre encadré "Nos offres" */
-    #tourmag-menu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
+    #testdemenu div[style*="background: #57C6C6"] div[style*="position: absolute"] {
         font-size: 1.05rem !important;
         padding: 0.35rem 1.3rem !important;
     }
     
     /* Contact Gentiane */
-    #tourmag-menu a[href*="gentiane"] p {
+    #testdemenu a[href*="gentiane"] p {
         font-size: 0.85rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] p:last-child {
+    #testdemenu a[href*="gentiane"] p:last-child {
         font-size: 0.95rem !important;
     }
     
-    #tourmag-menu a[href*="gentiane"] img {
+    #testdemenu a[href*="gentiane"] img {
         width: 60px !important;
         height: 60px !important;
     }
     
     /* Bouton "Abonnez-vous" */
-    #tourmag-menu a[href*="abo.tourmagmarketing.com"] {
+    #testdemenu a[href*="abo.tourmagmarketing.com"] {
         font-size: 1rem !important;
         padding: 0.65rem 1.3rem !important;
     }
     
     /* FAQ liens */
-    #tourmag-menu a[href*="faq"] {
+    #testdemenu a[href*="faq"] {
         font-size: 0.9rem !important;
         padding: 0.45rem 0.7rem !important;
     }
@@ -1267,10 +1267,10 @@
     }
 
 /* ICÔNES - Réduction responsive */
-    #tourmag-menu .mega-menu a img,
-    #tourmag-menu .media-simple-link img,
-    #tourmag-menu .media-icon img,
-    #tourmag-menu .newsletter-icon img {
+    #testdemenu .mega-menu a img,
+    #testdemenu .media-simple-link img,
+    #testdemenu .media-icon img,
+    #testdemenu .newsletter-icon img {
         width: 28px !important;
         height: 28px !important;
         max-width: 28px !important;
@@ -1375,7 +1375,7 @@
         }
 
         @media (max-width: 768px) {
-            #tourmag-menu {
+            #testdemenu {
                 display: block !important;
                 position: relative !important;
                 z-index: 1000 !important;
@@ -1395,13 +1395,13 @@ margin-top: -90px !important;
             }
 
             /* Tailles d'images en CSS avec !important */
-            #tourmag-menu .mega-column img,
-            #tourmag-menu .newsletter-list img,
-            #tourmag-menu .mega-links img,
-            #tourmag-menu .newsletter-icon img,
-            #tourmag-menu .media-icon img,
-            #tourmag-menu span img,
-            #tourmag-menu .mega-menu a img {
+            #testdemenu .mega-column img,
+            #testdemenu .newsletter-list img,
+            #testdemenu .mega-links img,
+            #testdemenu .newsletter-icon img,
+            #testdemenu .media-icon img,
+            #testdemenu span img,
+            #testdemenu .mega-menu a img {
                 width: 40px !important;
                 height: 40px !important;
                 max-width: 40px !important;
@@ -1457,11 +1457,11 @@ margin-top: -90px !important;
                 padding: 1rem 1rem;
             }
 
-            #tourmag-menu .header {
+            #testdemenu .header {
                 display: block !important;
             }
             
-            #tourmag-menu .main-nav {
+            #testdemenu .main-nav {
                 display: block !important;
             }
             
@@ -1593,12 +1593,12 @@ margin-top: -90px !important;
                 padding: 1.5rem;
             }
 
-            #tourmag-menu .nav-container {
+            #testdemenu .nav-container {
                 position: relative !important;
                 z-index: 1001 !important;
             }
 
-            #tourmag-menu .nav-list {
+            #testdemenu .nav-list {
                 position: absolute !important;
                 top: 100% !important;
                 left: 0 !important;
@@ -1606,7 +1606,7 @@ margin-top: -90px !important;
                 z-index: 1001 !important;
             }
 
-            #tourmag-menu .nav-list.active {
+            #testdemenu .nav-list.active {
                 display: flex !important;
                 position: relative !important;
             }
@@ -1620,12 +1620,12 @@ margin-top: -90px !important;
         }
 
         @media (max-width: 400px) {
-            #tourmag-menu .mega-column img,
-            #tourmag-menu .newsletter-list img,
-            #tourmag-menu .mega-links img,
-            #tourmag-menu .newsletter-icon img,
-            #tourmag-menu .media-icon img,
-            #tourmag-menu span img {
+            #testdemenu .mega-column img,
+            #testdemenu .newsletter-list img,
+            #testdemenu .mega-links img,
+            #testdemenu .newsletter-icon img,
+            #testdemenu .media-icon img,
+            #testdemenu span img {
                 width: 30px !important;
                 height: 30px !important;
                 max-width: 30px !important;
@@ -1634,9 +1634,9 @@ margin-top: -90px !important;
                 min-height: 30px !important;
             }
             
-            #tourmag-menu .newsletter-item .mega-link,
-            #tourmag-menu .media-item .mega-link,
-            #tourmag-menu .media-simple-link {
+            #testdemenu .newsletter-item .mega-link,
+            #testdemenu .media-item .mega-link,
+            #testdemenu .media-simple-link {
                 font-size: 1.1rem !important;
                 padding: 0.6rem 0.8rem !important;
             }
@@ -1681,9 +1681,9 @@ margin-top: -90px !important;
     
     // Injecter le HTML
     function injectHTML() {
-        const container = document.getElementById('tourmag-menu');
+        const container = document.getElementById('testdemenu');
         if (!container) {
-            console.error('TourMag Menu: Element #tourmag-menu not found');
+            console.error('TourMag Menu: Element #testdemenu not found');
             return false;
         }
         container.innerHTML = `<header class="header">
@@ -2141,7 +2141,7 @@ margin-top: -90px !important;
         let clickOutsideHandler = null;
         
         function isMenuMultiline() {
-            const navList = document.querySelector('#tourmag-menu .nav-list');
+            const navList = document.querySelector('#testdemenu .nav-list');
             if (!navList) return false;
             
             const navItems = Array.from(navList.querySelectorAll('.nav-item'));
@@ -2154,13 +2154,13 @@ margin-top: -90px !important;
         }
         
         function updateMegaMenuPositions() {
-            const mainNav = document.querySelector('#tourmag-menu .main-nav');
+            const mainNav = document.querySelector('#testdemenu .main-nav');
             if (!mainNav) return;
             
             const navRect = mainNav.getBoundingClientRect();
             const navBottom = navRect.bottom;
             
-            const megaMenus = document.querySelectorAll('#tourmag-menu .mega-menu');
+            const megaMenus = document.querySelectorAll('#testdemenu .mega-menu');
             megaMenus.forEach(menu => {
                 menu.style.top = (navBottom - 1) + 'px';
                 menu.classList.add('positioned');
@@ -2185,7 +2185,7 @@ margin-top: -90px !important;
         window.addEventListener('resize', updateMegaMenuPositions);
         
         function setupBehavior() {
-            const navItems = document.querySelectorAll('#tourmag-menu .nav-item');
+            const navItems = document.querySelectorAll('#testdemenu .nav-item');
             const isMultiline = isMenuMultiline();
             const isDesktop = window.innerWidth > 768;
             
@@ -2241,7 +2241,7 @@ margin-top: -90px !important;
                 });
                 
                 clickOutsideHandler = function(event) {
-                    const mainNav = document.querySelector('#tourmag-menu .main-nav');
+                    const mainNav = document.querySelector('#testdemenu .main-nav');
                     if (mainNav && !mainNav.contains(event.target)) {
                         navItems.forEach(item => item.classList.remove('active'));
                     }
@@ -2261,8 +2261,8 @@ margin-top: -90px !important;
 function adjustHamburgerPosition() {
     if (window.innerWidth <= 768) {
         const nativeMenu = document.querySelector('div.tablet-bg');
-        const toggleBtn = document.querySelector('#tourmag-menu .mobile-menu-toggle');
-        const mainNav = document.querySelector('#tourmag-menu .main-nav');
+        const toggleBtn = document.querySelector('#testdemenu .mobile-menu-toggle');
+        const mainNav = document.querySelector('#testdemenu .main-nav');
         
         if (nativeMenu && toggleBtn && mainNav) {
             const menuHeight = nativeMenu.offsetHeight;
@@ -2297,7 +2297,7 @@ if (nativeMenu) {
 // Réajuster au redimensionnement
 window.addEventListener('resize', adjustHamburgerPosition);
 
-const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-item');
+const newsletterItems = document.querySelectorAll('#testdemenu .newsletter-item');
         
         newsletterItems.forEach(item => {
             const link = item.querySelector('.mega-link');
@@ -2338,7 +2338,7 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
             });
         });
         
-        const mediaItems = document.querySelectorAll('#tourmag-menu .media-item');
+        const mediaItems = document.querySelectorAll('#testdemenu .media-item');
         
         mediaItems.forEach(item => {
             const link = item.querySelector('.mega-link');
@@ -2417,7 +2417,7 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
             });
         });
         
-        const mobileNavItems = document.querySelectorAll('#tourmag-menu .nav-item');
+        const mobileNavItems = document.querySelectorAll('#testdemenu .nav-item');
         
         mobileNavItems.forEach(item => {
             const link = item.querySelector('.nav-link');
@@ -2455,8 +2455,8 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
         });
         
         document.addEventListener('click', function(event) {
-            const nav = document.querySelector('#tourmag-menu .main-nav');
-            const toggle = document.querySelector('#tourmag-menu .mobile-menu-toggle');
+            const nav = document.querySelector('#testdemenu .main-nav');
+            const toggle = document.querySelector('#testdemenu .mobile-menu-toggle');
             const navList = document.getElementById('navList');
             
             if (window.innerWidth <= 768 && 
@@ -2472,7 +2472,7 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(function() {
                 if (window.innerWidth > 768) {
-                    document.querySelectorAll('#tourmag-menu .mega-menu').forEach(menu => {
+                    document.querySelectorAll('#testdemenu .mega-menu').forEach(menu => {
                         menu.style.display = '';
                     });
                     document.getElementById('navList').classList.remove('active');
