@@ -2091,7 +2091,7 @@ margin-top: -90px !important;
                                                         </li>
                                                     </ul>
                                                     <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; text-align: center;">
-                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">19€ TTC/an</span>
+                                                        <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">19€ TTC pour 12 mois</span>
                                                     </div>
 													<div style="margin-top: 1.5rem; text-align: center;">
     <a href="https://bit.ly/3OkRNbo" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #59DF7A, #0956E7); color: #ffffff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.15rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(89, 223, 122, 0.3); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(89, 223, 122, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(89, 223, 122, 0.3)';">
@@ -2496,3 +2496,4 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
         }
     }
 })();
+
