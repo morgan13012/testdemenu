@@ -1469,11 +1469,10 @@ margin-top: -90px !important;
     display: block !important;
     position: absolute;
     left: 1rem;
-    top: -3rem;  /* Au-dessus de la barre noire */
-    transform: none;
+    top: 0;
+    transform: translateY(-100%);
     z-index: 1002 !important;
-   
-    padding: 0.75rem;  /* Padding pour agrandir la zone cliquable */
+    padding: 0.75rem;
 }
             
             .nav-container {
@@ -1500,9 +1499,9 @@ margin-top: -90px !important;
                 z-index: 1000 !important;
             }
 
-            .main-nav {
-    position: relative;
-    margin-top: 3.5rem;  /* Espace pour le bouton au-dessus */
+           .main-nav {
+    position: static;
+    margin-top: 0;
     z-index: 1000 !important;
 }
 
@@ -2257,45 +2256,6 @@ margin-top: -90px !important;
         
        setupBehavior();
 
-// Ajuster la position du bouton hamburger en fonction de la hauteur du menu natif
-function adjustHamburgerPosition() {
-    if (window.innerWidth <= 768) {
-        const nativeMenu = document.querySelector('div.tablet-bg');
-        const toggleBtn = document.querySelector('#tourmag-menu .mobile-menu-toggle');
-        const mainNav = document.querySelector('#tourmag-menu .main-nav');
-        
-        if (nativeMenu && toggleBtn && mainNav) {
-            const menuHeight = nativeMenu.offsetHeight;
-            const baseOffset = 44; // Hauteur de base du menu
-            const extraOffset = menuHeight - baseOffset; // Différence (0 ou 41.6px)
-            
-            // Ajuster le top du bouton (base: -3rem = -48px)
-            const newTopRem = -3 - (extraOffset / 16); // Convertir px en rem
-            toggleBtn.style.top = `${newTopRem}rem`;
-            
-            // Ajuster le margin-top du main-nav (base: 3.5rem = 56px)
-            const newMarginRem = 3.5 + (extraOffset / 16);
-            mainNav.style.marginTop = `${newMarginRem}rem` + 3.225;
-        }
-    }
-}
-
-// Observer les changements de hauteur du menu natif
-const nativeMenu = document.querySelector('div.tablet-bg');
-if (nativeMenu) {
-    const observer = new MutationObserver(adjustHamburgerPosition);
-    observer.observe(nativeMenu, { 
-        attributes: true, 
-        childList: true, 
-        subtree: true 
-    });
-    
-    // Ajustement initial
-    adjustHamburgerPosition();
-}
-
-// Réajuster au redimensionnement
-window.addEventListener('resize', adjustHamburgerPosition);
 
 const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-item');
         
@@ -2496,3 +2456,5 @@ const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-ite
         }
     }
 })();
+
+// JavaScript Document
