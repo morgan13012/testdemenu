@@ -1469,8 +1469,8 @@ margin-top: -90px !important;
     display: block !important;
     position: absolute;
     left: 1rem;
-    top: 0;
-    transform: translateY(-100%);
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1002 !important;
     padding: 0.75rem;
 }
@@ -1499,8 +1499,8 @@ margin-top: -90px !important;
                 z-index: 1000 !important;
             }
 
-           .main-nav {
-    position: static;
+          .main-nav {
+    position: relative;
     margin-top: 0;
     z-index: 1000 !important;
 }
@@ -2255,6 +2255,21 @@ margin-top: -90px !important;
         }
         
        setupBehavior();
+		
+		// Déplacer le bouton hamburger dans le header natif du site
+if (window.innerWidth <= 768) {
+    const toggleBtn = document.querySelector('#tourmag-menu .mobile-menu-toggle');
+    const nativeHeader = document.querySelector('div.tablet-bg');
+    if (toggleBtn && nativeHeader) {
+        nativeHeader.style.position = 'relative';
+        toggleBtn.style.position = 'absolute';
+        toggleBtn.style.left = '1rem';
+        toggleBtn.style.top = '50%';
+        toggleBtn.style.transform = 'translateY(-50%)';
+        toggleBtn.style.zIndex = '1002';
+        nativeHeader.appendChild(toggleBtn);
+    }
+}
 
 
 const newsletterItems = document.querySelectorAll('#tourmag-menu .newsletter-item');
