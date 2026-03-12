@@ -1379,7 +1379,7 @@
     display: block !important;
     position: relative !important;
     z-index: 1000 !important;
-    margin-top: -35px !important;
+    margin-top: -45px !important;
 }
 
             .nav-item .nav-link img {
