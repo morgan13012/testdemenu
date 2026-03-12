@@ -1464,7 +1464,7 @@
     display: block !important;
     position: absolute;
     left: 1rem;
-    top: -2px;
+    top: -6px;
     transform: none;
     z-index: 1002 !important;
     padding: 0.75rem;
@@ -2259,7 +2259,7 @@ if (window.innerWidth <= 768) {
         nativeHeader.style.position = 'relative';
         toggleBtn.style.position = 'absolute';
         toggleBtn.style.left = '1rem';
-        toggleBtn.style.top = '-2px';
+        toggleBtn.style.top = '-6px';
         toggleBtn.style.transform = 'none';
         toggleBtn.style.zIndex = '1002';
         nativeHeader.insertBefore(toggleBtn, nativeHeader.firstChild);
