@@ -1738,7 +1738,7 @@
                                     </div>
                                     <div class="mega-column">
                                         <ul class="mega-links" style="display: flex; flex-direction: column; gap: 0.5rem;">
-											<a href="https://www.tourmag.com/Page-test-crise-Moyen-Orient_a131087.html" style="display: block; background: linear-gradient(135deg, #d32f2f, #b71c1c); color: #ffffff; padding: 1rem 1.2rem; border-radius: 10px; font-weight: 700; font-size: 1.15rem; text-decoration: none; text-align: center; margin-bottom: 1rem; box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); position: relative; overflow: hidden; animation: crisePulse 2s ease-in-out infinite; line-height: 1.3;">
+											<a href="https://www.tourmag.com/Page-test-crise-Moyen-Orient_a131087.html" style="display: block; background: linear-gradient(135deg, #d32f2f, #b71c1c); color: #ffffff; padding: 1rem 1.2rem; border-radius: 10px; font-weight: 700; font-size: 1.15rem; text-decoration: none; text-align: center; margin-bottom: 2rem; box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); position: relative; overflow: hidden; animation: crisePulse 2s ease-in-out infinite; line-height: 1.3;">
     <span style="display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">⚠ Dossier Spécial</span>
     Crise au Moyen-Orient
     
