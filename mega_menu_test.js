@@ -235,6 +235,11 @@
             background: transparent;
         }
 
+@keyframes crisePulse {
+    0%, 100% { box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); }
+    50% { box-shadow: 0 4px 25px rgba(211, 47, 47, 0.7); }
+}
+
         /* Colonnes du mega menu */
         .mega-columns {
             display: grid;
@@ -1160,6 +1165,7 @@
 
 
 
+
         font-size: 0.8rem;
         padding: 0.7rem;
     }
@@ -1732,6 +1738,11 @@
                                     </div>
                                     <div class="mega-column">
                                         <ul class="mega-links" style="display: flex; flex-direction: column; gap: 0.5rem;">
+											<a href="https://www.tourmag.com/Page-test-crise-Moyen-Orient_a131087.html" style="display: block; background: linear-gradient(135deg, #d32f2f, #b71c1c); color: #ffffff; padding: 1rem 1.2rem; border-radius: 10px; font-weight: 700; font-size: 1.15rem; text-decoration: none; text-align: center; margin-bottom: 1rem; box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); position: relative; overflow: hidden; animation: crisePulse 2s ease-in-out infinite; line-height: 1.3;">
+    <span style="display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">⚠ Dossier Spécial</span>
+    Crise au Moyen-Orient
+    <span style="display: block; font-size: 0.75rem; margin-top: 0.3rem; opacity: 0.85;">Impact sur le tourisme français</span>
+</a>
                                             <div style="border: 2px solid #ffd700; border-radius: 12px; padding: 1rem; background: linear-gradient(135deg, rgba(255, 215, 0, 0.05), rgba(255, 237, 78, 0.03)); position: relative; margin-bottom: 0.5rem;">
                                                 <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffd700, #ffed4e); padding: 0.5rem 2rem; border-radius: 20px; font-weight: 700; font-size: 1.4rem; color: #1a1a1a; box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3); white-space: nowrap; min-width: 200px; text-align: center;">Articles abonnés</div>
                                                 <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
@@ -1939,7 +1950,7 @@
                                                 
                                                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.5rem;">
                                                     <button class="offer-tab active" data-offer="premium" style="background: linear-gradient(135deg, #0066cc, #0056b3); border: 2px solid #0066cc; box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3); border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 700; color: #ffffff; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
-                                                        Premium<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #ffffff;">119 € TTC / 12 mois</span>
+                                                        Premium +<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #ffffff;">119 € TTC / 12 mois</span>
                                                     </button>
                                                     <button class="offer-tab" data-offer="membership" style="background: #f8f9fa; border: 2px solid #d0d0d0; border-radius: 8px; padding: 1rem; font-size: 1.05rem; font-weight: 600; color: #1a1a1a; font-family: 'Josefin Sans', sans-serif; cursor: pointer; transition: all 0.3s ease; text-align: center;">
                                                         MemberShip Club<br><span style="display: block; margin-top: 0.5rem; font-size: 1.15rem; font-weight: 700; color: #0066cc;">499 € TTC / 12 mois</span>
@@ -1961,7 +1972,7 @@
 </div>
                                                 
                                                 <div class="offer-content" data-content="premium" style="background: var(--white); border-radius: 8px; padding: 1.5rem; border-left: 4px solid #0066cc;">
-                                                    <h5 style="font-size: 1.3rem; font-weight: 700; color: #0066cc; margin-bottom: 1rem;">Offre Premium</h5>
+                                                    <h5 style="font-size: 1.3rem; font-weight: 700; color: #0066cc; margin-bottom: 1rem;">Offre Premium +</h5>
                                                     <ul style="list-style: none; padding: 0; margin: 0; font-size: 1.1rem; color: #4a4a4a; line-height: 2;">
                                                         <li style="padding: 0.25rem 0; padding-left: 1.5rem; position: relative;">
                                                             <span style="position: absolute; left: 0; color: #59DF7A; font-size: 1.2rem;">✓</span>
@@ -1980,7 +1991,7 @@
                                                         <span style="font-size: 1.5rem; font-weight: 700; color: #0066cc;">119 € TTC / 12 mois</span>
                                                     </div>
 													<div style="margin-top: 1.5rem; text-align: center;">
-    <a href="https://bit.ly/3O2yqnp" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #59DF7A, #0956E7); color: #ffffff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.15rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(89, 223, 122, 0.3); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(89, 223, 122, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(89, 223, 122, 0.3)';">
+    <a href="https://membership.tourmag.com/signup/h3u97wG7w" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #59DF7A, #0956E7); color: #ffffff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.15rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(89, 223, 122, 0.3); text-transform: uppercase;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(89, 223, 122, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(89, 223, 122, 0.3)';">
         Abonnez-vous →
     </a>
 </div>
