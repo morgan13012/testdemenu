@@ -236,8 +236,8 @@
         }
 
 @keyframes crisePulse {
-    0%, 100% { box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); }
-    50% { box-shadow: 0 4px 25px rgba(211, 47, 47, 0.7); }
+    0%, 100% { transform: scale(1); box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); }
+    50% { transform: scale(1.03); box-shadow: 0 6px 30px rgba(211, 47, 47, 0.8), 0 0 15px rgba(211, 47, 47, 0.5); }
 }
 
         /* Colonnes du mega menu */
@@ -1741,7 +1741,7 @@
 											<a href="https://www.tourmag.com/Page-test-crise-Moyen-Orient_a131087.html" style="display: block; background: linear-gradient(135deg, #d32f2f, #b71c1c); color: #ffffff; padding: 1rem 1.2rem; border-radius: 10px; font-weight: 700; font-size: 1.15rem; text-decoration: none; text-align: center; margin-bottom: 1rem; box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4); position: relative; overflow: hidden; animation: crisePulse 2s ease-in-out infinite; line-height: 1.3;">
     <span style="display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">⚠ Dossier Spécial</span>
     Crise au Moyen-Orient
-    <span style="display: block; font-size: 0.75rem; margin-top: 0.3rem; opacity: 0.85;">Impact sur le tourisme français</span>
+    
 </a>
                                             <div style="border: 2px solid #ffd700; border-radius: 12px; padding: 1rem; background: linear-gradient(135deg, rgba(255, 215, 0, 0.05), rgba(255, 237, 78, 0.03)); position: relative; margin-bottom: 0.5rem;">
                                                 <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffd700, #ffed4e); padding: 0.5rem 2rem; border-radius: 20px; font-weight: 700; font-size: 1.4rem; color: #1a1a1a; box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3); white-space: nowrap; min-width: 200px; text-align: center;">Articles abonnés</div>
