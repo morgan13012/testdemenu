@@ -1739,11 +1739,11 @@
                                     <div class="mega-column">
                                         <ul class="mega-links" style="display: flex; flex-direction: column; gap: 0.5rem;">
 											<div style="display: flex; gap: 0.75rem; margin-bottom: 2rem;">
-    <a href="https://www.tourmag.com/tags/crise+golfe/" style="display: block; flex: 1; background: linear-gradient(135deg, #d32f2f, #2d1b4e); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; animation: crisePulse 1.5s ease-in-out infinite; line-height: 1.3;">
+    <a href="https://www.tourmag.com/tags/crise+golfe/?utm_source=menu-tourmag" style="display: block; flex: 1; background: linear-gradient(135deg, #d32f2f, #2d1b4e); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; animation: crisePulse 1.5s ease-in-out infinite; line-height: 1.3;">
         <span style="display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">⚠ Spécial</span>
         Crise au Moyen-Orient
     </a>
-    <a href="https://www.tourmag.com/Clubs-de-vacances_r597.html" style="display: block; flex: 1; background: linear-gradient(135deg, rgba(89,223,122,1), rgba(9,86,231,1)); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; line-height: 1.3; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 15px rgba(9,86,231,0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+    <a href="https://www.tourmag.com/Clubs-de-vacances_r597.html?utm_source=menu-tourmag" style="display: block; flex: 1; background: linear-gradient(135deg, rgba(89,223,122,1), rgba(9,86,231,1)); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; line-height: 1.3; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 15px rgba(9,86,231,0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
         <span style="display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">Dossier Spécial</span>
         Clubs de vacances
     </a>
