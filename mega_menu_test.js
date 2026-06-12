@@ -1,4 +1,4 @@
-	/**
+/**
  * TourMag Navigation Menu Widget
  * Version: 1.1.0 - CORRIGÉ
  * Description: Widget tout-en-un pour le mega menu TourMag
@@ -1739,9 +1739,9 @@
                                     <div class="mega-column">
                                         <ul class="mega-links" style="display: flex; flex-direction: column; gap: 0.5rem;">
 											<div style="display: flex; gap: 0.75rem; margin-bottom: 2rem;">
-    <a href="https://www.tourmag.com/Le-Forum-des-Pionniers-2026-en-direct-ABO_a131787.html?utm_source=menu-tourmag" style="display: block; flex: 1; background: linear-gradient(135deg, #d32f2f, #2d1b4e); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; animation: crisePulse 1.5s ease-in-out infinite; line-height: 1.3;">
-    <span style="display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">🔴 LIVE</span>
-    Le Forum des Pionniers 2026
+    <a href="https://www.tourmag.com/Croisieres-Fluviales_r603.html?utm_source=menu-tourmag" style="display: block; flex: 1; background: linear-gradient(135deg, #0b3d6e, #1a94b8); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; line-height: 1.3; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 15px rgba(11,61,110,0.45)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+    <span style="display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">Dossier Spécial</span>
+    Croisières Fluviales
 </a>
     <a href="https://www.tourmag.com/Grand-Format-l-Australie_r602.html?utm_source=menu-tourmag" style="display: block; flex: 1; background: linear-gradient(135deg, #f4a020, #c0392b); color: #ffffff; padding: 0.85rem 0.8rem; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; text-align: center; position: relative; overflow: hidden; line-height: 1.3; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 15px rgba(196,79,31,0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
     <span style="display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9; margin-bottom: 0.3rem;">Dossier Spécial</span>
